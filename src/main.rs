@@ -1,6 +1,6 @@
 #[macro_use] extern crate rocket;
 
-use chrono::{DateTime, Utc};
+use chrono::{Utc};
 
 #[get("/")]
 fn index() -> String {
